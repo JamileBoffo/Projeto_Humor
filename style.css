@@ -1,0 +1,81 @@
+header h1 {
+    background-image: url("http://pm1.narvii.com/6995/985894c5878ff91ee2793539f524f89752f7c1c6r1-640-360v2_uhq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 50%;
+    background-position-y: 50%;
+
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding: 5rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+
+    color: #fdfdfd;
+    font-size: 64px;
+    text-shadow: .1rem .1rem #2a224e80;
+}
+
+section#info {
+    background-color: #483D8B;
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+
+    color:rgb(207, 206, 218);
+
+    padding: 100px;
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-left: 100px;
+
+}
+
+section#info div#txt{
+    color: rgb(137, 124, 197);
+}
+
+section#info div#txt h2{
+    text-align: center;
+
+    padding: 16px;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+section#info div#txt h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+section#info div#img img{
+    width: 60%;
+    border-radius: 3rem;
+    transform: scaleX(-1);
+}
+
+section#info div#txt button{
+    padding: 1rem;
+
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    background-color: rgb(144, 145, 241);
+    border: 2px solid rgb(144, 145, 241);
+    border-radius: 2rem;
+    transition: all .5s ease-out;
+    cursor: pointer;
+}
+
+*{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
